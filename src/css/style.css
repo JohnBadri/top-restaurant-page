@@ -32,6 +32,23 @@ body {
   border-radius: 5px;
 }
 
+.footer {
+  margin: 0;
+  padding: 0;
+  height: 75px;
+  background-color: rgba(63, 0, 0, 1);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.footer p {
+  margin: 0;
+  padding: 0;
+}
+
 .hero-image {
   background-image: url("../images/hero-image-night.jpg");
   background-size: cover;
@@ -70,7 +87,7 @@ body {
   padding: 10px 15px;
   border-radius: 5px;
   color: #fff;
-  background-color: rgba(63, 0, 0);
+  background-color: rgba(63, 0, 0, 0.8);
   border: none;
   box-shadow: 0 0 100px 0 rgba(255, 255, 255, 0.9);
   transition: box-shadow 0.3s ease;
@@ -86,4 +103,45 @@ body {
   border: none;
   box-shadow: 0 0 100px 0 rgba(255, 69, 0, 0.9);
   cursor: pointer;
+}
+
+.menu-image {
+  background-image: url("../images/night-bar.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.menu-collection {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  margin: auto;
+}
+
+.menu-collection h2 {
+  font-size: 60px;
+  border: 4px solid #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.drink-item {
+  text-align: center;
+}
+
+.drink-img {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 0 200px 0 rgba(255, 255, 255, 0.5);
 }

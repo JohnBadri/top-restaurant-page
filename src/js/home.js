@@ -22,7 +22,8 @@ export const mainSection = () => {
   contentContainer.appendChild(heading);
 
   const button = document.createElement("button");
-  button.classList.add("hero-content", "button");
+  button.classList.add("hero-content", "hero-button");
+  button.type = "button";
   button.textContent = "Discover Culture";
   contentContainer.appendChild(button);
 
