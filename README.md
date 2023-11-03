@@ -21,4 +21,4 @@ Upon loading the page, users can navigate through the site using the header link
 
 ## Contributions
 
-Contributions are welcome to enhance this project's functionality, design, or user experience. If you have suggestions or improvements, please submit a pull request or open an issue on the repository.
+Contributions are welcome to enhance this project's functionality, design, or user experience.
