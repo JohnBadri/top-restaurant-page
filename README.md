@@ -1,4 +1,4 @@
-# Odin's Table - Restaurant Page
+# The Odin Project - Restaurant Page
 
 Live Demo - https://johnbadri.github.io/top-restaurant-page/dist/
 
@@ -18,15 +18,6 @@ Upon loading the page, users can navigate through the site using the header link
 - **Home:** View the main landing page with a welcome message and featured dishes.
 - **Menu:** Explore the full list of available meals and beverages.
 - **Contact:** Get in touch with the restaurant for reservations or inquiries.
-
-## Installation
-
-To get started with the Odin's Table codebase:
-
-1. Clone the repository to your local machine.
-2. Install the required node modules with `npm install`.
-3. Build the project with `npm run build`.
-4. Open the `index.html` file in a browser to view the page.
 
 ## Contributions
 
